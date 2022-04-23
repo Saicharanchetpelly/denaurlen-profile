@@ -1,0 +1,872 @@
+/* CSS STYLES FOR HTML */
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.profile-page{
+    width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+ 
+}
+.profile,.profile-user-settings,.profile-user-settings .left,
+.profile-user-info,.profile-data,.profile-bio,.profile-bio .left,
+.posts-count,.followers-count,.following-count,.my-community-count,
+.community-count,.rank-count,.no-of-coins,.posts-type,.first,.second,
+.third,.fourth,.options,.places,.cars,.celebrities,.songs,.movies,
+.quotes,.sports,.health-fitness,.books,.food-drinks,.gallery,
+.trending{
+    display: flex;
+}
+
+.profile,.trending,.posts-count,.followers-count,.following-count,.my-community-count,.community-count,.rank-count
+{
+    flex-direction: column;
+}
+.profile-user-settings,.profile-data,.profile-bio,.profile-bio .left,
+.no-of-coins,.options{
+    justify-content: space-between;
+}
+
+
+
+.profile{
+    height:auto;
+    background: #E9E1EE;
+    border-radius: 20px; 
+}
+
+
+.profile-user-settings{
+    height: 45px;
+    width:auto;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    align-items: center;
+    color: #343434;
+}
+
+.blue-tick{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+.profile-user-name{
+    height: 30px;
+    font-weight: 600;
+    font-size: 23px;
+    align-items: center;
+ }
+.profile-edit-button{
+    width:109px;
+    height:42px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4B0082;
+    border-radius: 5px;
+    border: 0;
+}
+/* CSS STYLES FOR PROFILE STATS */
+.profile-pic-image{
+    width:75px;
+    height:75px;
+    background: #E9E1EE;
+    border-radius:50%;
+    border: 2px solid white;
+}
+.profile-user-info{
+    height: 100px;
+    display: flex;
+}
+
+.profile-stats{
+   width: 100%;
+   height:100px;
+}
+.profile-data{
+    width: 100%;
+    height: 75px;
+  
+}
+.profile-bio{
+    height: 25px;
+   
+ }
+   
+.profile-bio .left{
+    width:30%;
+    height: 25px;
+    margin-left: 24px;
+}
+.posts-count,.followers-count,.following-count,.my-community-count,.community-count,.rank-count{
+   
+    flex-direction: column;
+    align-items: center;
+    height: 75px;
+}
+.posts-count .top,.followers-count .top,.following-count .top,.my-community-count .top,.community-count .top,.rank-count .top{
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+}
+.posts-count .bottom,.followers-count .bottom ,.following-count .bottom,.my-community-count .bottom,.community-count .bottom,.rank-count .bottom{
+    height: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:600;
+    font-size: 20px;
+    text-align: center;
+}
+/* CSS STYLES FOR USER-BIO */
+
+
+.no-of-coins{
+   height: 25px;
+}
+.no-of-coins p{
+    text-align: center;
+    height:25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.coin-image{
+    height:20px;
+    width: 20px;
+    align-self:center ;
+}
+
+.real-name{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    color: #4B0082;
+
+}
+.user-bio{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    color: #343434;
+}
+/* CSS STYLES FOR POSTS TYPE */
+.posts-type{
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.first,.second,.third,.fourth{
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: #5D5D5D
+}
+.first p,
+.second p,
+.third p,
+.fourth p{
+
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 0rem;
+
+}
+/* CSS STYLES FOR OPTIONS */
+.options{
+    height: 40px;
+    margin: auto;
+    width: 90%;
+}
+.options p{
+    font-family: 'Lato', sans-serif;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 600;
+    font-size:16px;
+    color: #9D9D9D;
+
+}
+
+.places p{
+   padding-bottom: 1.7rem;
+   border-bottom: 2px solid #4B0082;
+   color: #4B0082;
+ 
+}
+/* CSS STYLES FOR GALLERY */
+.gallery-image{
+    width: 15.2vw;
+    height: auto;
+    border-radius: 9px;
+    margin-bottom:3vh;
+}
+.gallery {
+    padding:0px 3vw;
+    flex-wrap: wrap;
+ }
+.gallery-item{
+    position:relative;
+    margin-right:2.5vw;
+}
+.trending{
+    
+    
+    position: absolute;
+    background-color: #4B0082;
+    width: 15.98%;
+    align-items: center;
+    height: 14.47%;
+    top:0.5%;
+    left: 75.79%;
+    bottom: 85.46%;
+    right: 0.08%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px 0px 6.13231px 6.13231px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.trending img{
+    width: 35.93%;
+    height:50%;
+    top: 7.69%;
+    right: 25.94%;
+    left: 25.94%;
+    bottom: 50.64%;
+   
+    align-items: center;
+}
+.trending p{
+    margin-bottom: 0px;
+    width: 60%;
+    height:50%;
+    top: 40.19%;
+    left: 33.69%;
+    bottom:2%;
+    text-align: center;
+    margin-top: -5px;
+}
+.profile-switch,.profile-data-mobile,.profile-bio-lap,
+.profile-bio-mobile{
+    display: none;
+}
+
+@media screen and (min-width:769px) and (max-width:1055px){
+    .options p{
+        font-size: 12px;
+    
+}
+.trending p{
+     font-size: 10px;
+}
+
+.profile-bio .left{
+    width:50%
+}
+}
+@media screen  and (max-width:768px){
+
+   
+    .profile{
+        width:95%;
+        background:white;
+        border-radius: 0px;
+        
+    }
+    
+    .profile-switch{
+        display: flex;
+        visibility: visible;
+        height: 25px;
+        align-items: center;
+    }
+    .profile-switch p{
+        text-align: center;
+        height:25px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    }
+   .profile-switch img{
+        height:20px;
+        width: 20px;
+        align-self:center ;
+    }
+    .profile-edit-button{
+        height: 40px;
+        font-size: 16px;
+        border: 0;
+    }
+    .bluetick{
+        width: 21px;
+        height: 24px;
+    }
+    .profile-user-setting{
+        height: 40px;
+        width: 100%;
+    }
+    .profile-user-name{
+        height: 20px;
+        font-size: 20px;
+    }
+    .profile-pic-image{
+        height: 70px;
+        width: 70px;
+    }
+    .profile-data{
+        height: 60px;
+        width:100%;
+}
+        
+    .profile-user-info,.profile-stats{
+        height:70px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .profile-stats{
+        height: 60px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .profile-data{
+        width: 100%;
+        height: 60px;
+    }
+    .posts-count,.followers-count,.following-count,.my-community-count,.community-count,.rank-count{
+        height: 70px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .posts-count .top,.followers-count .top,.following-count .top,.my-community-count .top,.community-count .top,.rank-count .top{
+        height: 20px;
+        font-size: 16px;
+        font-weight:normal;
+        text-align: center;
+        align-items: center;
+    }
+    .posts-count .bottom,.followers-count .bottom ,.following-count .bottom,.my-community-count .bottom,.community-count .bottom,.rank-count .bottom{
+        height: 20px;
+        font-size: 16px;
+        font-weight:600;
+        text-align: center;
+    }
+    .profile-bio-lap{
+        height: 25px;
+        display: unset;
+    }
+.profile-bio,.profile-bio-mobile{
+    display:none;
+}
+.profile-data-mobile{
+    display: none;
+}
+.profile-bio-lap{
+    height: 20px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.rank-lap{
+        height: 20px;
+        font-weight: 600;
+    
+}
+.no-of-coins-lap{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+.no-of-coins-lap p{
+    text-align: center;
+    height:25px;
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+.no-of-coins-lap img {
+    height:20px;
+    width: 20px;
+    align-self:center ;
+}
+
+.real-name-lap{
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+align-items: center;
+
+color: #4B0082;
+
+}
+.user-bio-lap{
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+
+font-size: 18px;
+align-items: center;
+
+color: #343434;
+}
+    .first,.second,.third,.fourth,.first p,
+    .second p,
+    .third p,
+    .fourth p{
+        height: 20px;
+        font-size: 13px;
+        align-items: center;
+    }
+ .first img,
+    .second img,
+    .third img,
+    .fourth img{
+       
+        height: 20px;
+    }
+    .options {
+        font-weight: 600;
+    margin-bottom: 0px;
+   
+font-size: 14px;
+overflow: auto;
+overflow-y: hidden;
+white-space: nowrap;
+    }
+    .options::-webkit-scrollbar {
+        display: none;
+      }
+    
+    .options div{
+        margin-right: 2.5rem;
+    }
+    .posts-count .top{
+        margin-left: 0px;
+    }
+    .gallery-image{
+       width: 15.6vw;
+       height: auto;
+border-radius: 5px;
+margin-bottom: 1rem;
+
+
+
+    }
+    .gallery{
+        width: 100%;
+        padding: 0 3.15vw;
+        margin-left: 1.2rem!important;
+    }
+    .gallery-item{
+       margin-right: 2.65vw;
+    }
+    .trending{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #4B0082;
+        width: 15.62%;
+        height:14.53%;
+      
+      
+        left: 76%;
+        bottom: 85.14%;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        border-radius: 0px 0px 6.13231px 6.13231px;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+    }
+    .trending img{
+        width: 36.8%;
+        height:32.63;
+       top: 7.84%;
+       bottom: 60.68%;
+       left:32.8%;
+       right: 32.8%;
+        align-items: center;
+       
+    }
+    .trending p{
+        margin-bottom: 0px;
+        left: 20%;
+        right: 10%;
+        top: 0%;
+        bottom:20%;
+        width: 25%;
+        height: 39.84%;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+    }
+    .rank-count{
+        display: none;
+    }
+    .profile-bio{width: 100%;
+        font-size: 10px;
+     margin-left: -107px;
+        height: 20px;
+        justify-content: space-around;
+    }
+    .profile-bio .left{
+        height: 15px;
+        width: 50%;
+      
+    }
+    .profile-switch{
+       
+        margin-top: 1rem!important;
+        margin-bottom:  0rem!important;
+    margin-right: 0rem!important;
+    margin-left: 0rem!important;
+
+    }
+
+.profile-user-info,.profile-user-settings{
+    margin-top: 0rem!important;
+    margin-bottom:  0rem!important;
+margin-right: 0rem!important;
+margin-left: 0rem!important;
+}
+}
+@media screen and (min-width:425px) and (max-width:530px){
+    .posts-count .top,.followers-count .top,.following-count .top,.my-community-count .top,.community-count .top,.rank-count .top,.posts-count .bottom,.followers-count .bottom ,.following-count .bottom,.mycommunity-count .bottom,.community-count .bottom,.rank-count .bottom{
+      
+        font-size: 12px;
+       
+    }
+    .profile-bio-lap{
+        font-size: 13px;
+    }
+    .trending p{
+        font-size: 8px;
+    }
+   
+}
+@media screen and (max-width:425px){
+    .profile{
+    width: 100%;
+    background: white;
+    border-radius: 0px;
+   
+    
+       
+    }
+.profile-switch{
+    margin: 0rem!important;
+    margin-top: 1rem!important;
+    display: flex;
+
+    }
+
+.profile-user-info,.profile-user-settings{
+    margin: 0rem!important;
+}
+
+.profile-switch{
+    display: flex;
+    height: 16px;
+    }
+.profile-switch p{
+    height: 16px;
+    font-size: 18px;
+    }
+.profile-switch img{
+    height: 12.63px;
+    }
+.profile-edit-button{
+    height: 30px;
+    font-size: 12px;
+    }
+.blue-tick{
+    width: 15px;
+    height: 15px;
+ }
+.profile-user-setting{
+     height: 30px;
+     margin-left: 0rem !important;
+ }
+.profile-user-name{
+    height: 12px;
+    font-size: 14px;
+        
+  }
+  .profile-pic-image{
+    height: 60px;
+    width: 60px;
+}
+.profile-data{
+    height: 60px;
+    width:100%;
+    justify-content:flex-start;
+}
+
+.profile-user-info,.profile-stats{
+    height: 60px;
+    width:100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.profile-stats{
+   
+    margin-top: 10px;
+}
+.posts-count,.followers-count,.following-count,.my-community-count,.community-count,.rank-count{
+    height: 40px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.posts-count .top,.followers-count .top,.following-count .top,.my-community-count .top,.community-count .top,.rank-count .top{
+    height: 20px;
+    font-size: 14px;
+}
+.posts-count .bottom,.followers-count .bottom ,.following-count .bottom,.my-community-count .bottom,.community-count .bottom,.rank-count .bottom{
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.followers-count,.following-count,.my-community-count,.community-count{
+    display: none;
+}
+.rank-count{
+    display: unset;
+    margin-left: 20px;
+}
+.profile-bio{
+    display:none;
+}
+.profile-bio-lap{
+    display: none;
+}
+.profile-bio-mobile{
+    display:unset;
+    height: 25px;
+}
+.profile-data-mobile{
+    display:unset;
+}
+.profile-data-mobile{
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    justify-content: space-between;
+    text-align: center;
+}
+.followers-countmobile,.following-countmobile,.my-community-countmobile,.community-countmobile{
+    height: 30px;
+}
+.followers-countmobile .top,.following-countmobile .top,.my-community-countmobile .top,.community-countmobile .top{
+    height: 15px;
+   
+}
+.followers-countmobile .bottom,.following-countmobile .bottom,.my-community-countmobile .bottom,.community-countmobile .bottom{
+    height: 15px;
+    font-weight: 600;
+}
+
+
+.profile-bio-mobile{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.profile-bio-mobile .left{width: 40%;
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    font-size: 14px;
+}
+.real-name-mobile{
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+
+    font-weight: bold;
+    font-size: 14px;
+
+
+
+
+    color: #4B0082;
+
+}
+.user-bio-mobile{
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    text-align: center;
+
+    color: #343434;
+
+}
+.no-of-coins-mobile{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+.no-of-coins-mobile p{
+    text-align: center;
+    margin-bottom: 0rem;
+    height:25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.no-of-coins-mobile img {
+   height: auto;
+    width: 20px;
+    align-self:center ;
+}
+
+
+
+.first,.second,.third,.fourth,.first p,
+.second p,
+.third p,
+.fourth p{
+    height: 16px;
+    font-size: 12px;
+    align-items: center;
+}
+.first img,
+.second img,
+.third img,
+.fourth img{
+   
+    height: 20px;
+}
+.profile-bio .left{width: 62%;
+    height: 20px;
+   
+    margin: 0px;
+    margin-left: -40px;
+   
+}
+.real-name,.no-of-coins p,.user-bio{
+    font-size: 14px;
+}
+.no-of-coins{
+    height: 20px;
+}
+.first,.second,.third,.fourth{
+    height:38px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+}
+.first p,.second p,.third p,.fourth p{
+    height: 15px;
+    font-size: 12px;
+}
+.first img,
+.second img,
+.third img,
+.fourth img{
+   
+    height: 15px;
+}
+.line{
+    margin-top: 0rem!important;
+    margin-bottom:  0rem!important;
+    margin-right: 0rem!important;
+    margin-left: 0rem!important;
+}
+.options{
+    height: 30px;
+    font-weight: 500;
+    font-size: 10px;
+ 
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.places p{
+    padding-bottom:1.6rem;
+    border-bottom: 2px solid #4B0082;
+    color: #4B0082;
+  
+ }
+.options div{
+    margin-right: 2.5rem;
+}
+.gallery-image{
+  width: 42.58vw;
+  height: auto;
+  border-radius: 20px;
+  
+}
+
+
+.gallery{
+    width: 100%;
+    display: flex;
+    padding: 0 2.8vw;
+    margin-right: 0rem!important;
+    margin-left: 0.6rem!important;
+    
+    
+}
+.gallery-item{
+    margin-right: 4.47vw;
+}
+.gallery-item{
+    margin-bottom: 0.5rem;
+    
+}
+
+.trending{
+  width:14.36%;
+  height:14.22%;
+  top: 0.5%;
+  left: 70%;
+  border-radius: 0px 0px 6.13231px 6.13231px;
+  font-size: 14px;
+}
+.trending img{
+    width: 35.92%;
+    height:32.78%;
+    top: 7.7%;
+    left: 20%;
+    right:10%;
+    bottom: 59.8%;
+    align-items: center;
+}
+.trending p{
+    margin-bottom: 0px;
+    margin-top: -3px;
+ font-size: 12px;
+}
+}
